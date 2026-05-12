@@ -1,20 +1,29 @@
 import styled from 'styled-components';
+import Header from './components/Header';
 
-const Container = styled.div`
-  background-color: #121212;
-  color: white;
-  height: 100vh;
+const AppContainer = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #000000;
+`;
+
+const MainContent = styled.main`
+  flex: 1;
+  overflow-y: auto;
+  background: linear-gradient(to bottom, #1e1e1e, #121212);
+  padding: 20px;
+  color: white;
 `;
 
 function App() {
   return (
-    <Container>
-      <h1>Spotify Clone - Pronto aquí 🎵</h1>
-    </Container>
+    <AppContainer>
+      <Header />
+      <MainContent>
+        <h1>Spotify Clone - Contenido Principal 🎵</h1>
+      </MainContent>
+    </AppContainer>
   );
 }
 
