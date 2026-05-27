@@ -14,7 +14,7 @@ import {
   SectionRight,
   TooltipWrapper,
   AvatarContainer
-} from '../styles/HeaderStyles';
+} from '../../styles/HeaderStyles';
 
 const Header = () => {
   return (

@@ -5,9 +5,9 @@ import {
   FilterContainer, 
   SearchRow,
   ItemListContainer 
-} from '../styles/SidebarStyles';
-import { FilterButton } from '../styles/ButtonsAtoms';
-import { LibraryItem } from './LibraryItem';
+} from '../../styles/SidebarStyles';
+import { FilterButton } from '../atoms/ButtonsAtoms';
+import { LibraryItem } from '../molecules/LibraryItem';
 
 export const Sidebar = () => {
   const [activeFilter, setActiveFilter] = useState(null);

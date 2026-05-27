@@ -1,4 +1,4 @@
-import MainApp from './components/MainApp';
+import MainApp from './components/organisms/MainApp';
 
 function App() {
   return <MainApp />;

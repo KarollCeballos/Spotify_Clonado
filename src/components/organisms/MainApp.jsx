@@ -1,8 +1,8 @@
 import React, { useState } from 'react'; // <-- Importamos React y useState
 import styled from 'styled-components';
-import Header from './Header'; 
-import { FilterButton } from '../styles/ButtonsAtoms';
-import { Sidebar } from './Sidebar';
+import Header from '../organisms/Header'; 
+import { FilterButton } from '../atoms/ButtonsAtoms';
+import { Sidebar } from '../organisms/Sidebar';
 
 const AppContainer = styled.div`
   display: flex;

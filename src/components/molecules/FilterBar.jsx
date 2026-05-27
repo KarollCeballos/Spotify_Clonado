@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 // Importamos tu átomo desde tu carpeta de estilos
-import { FilterButton } from '../styles/ButtonsAtoms'; 
+import { FilterButton } from '../atoms/ButtonsAtoms'; 
 
 const FilterContainer = styled.div`
   display: flex;

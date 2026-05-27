@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListItem, ItemImage, ItemText } from '../styles/SidebarStyles';
+import { ListItem, ItemImage, ItemText } from '../../styles/SidebarStyles';
 
 export const LibraryItem = ({ imageUrl, title, subtitle, isArtist, isLikedSongs, isPinned }) => {
   return (
